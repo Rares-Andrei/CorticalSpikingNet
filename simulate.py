@@ -2,14 +2,9 @@ from brian2 import *
 import network_main
 from network_parameters import net_dict, neuron_dict, receptors_dict, eqs_dict
 from utils.utils import save_config, create_run_folder, setup_loggers
-import csv
-import pandas as pd
-from collections import defaultdict
 import hydra
 from omegaconf import DictConfig
-from omegaconf import OmegaConf
 import os
-import logging
 
 defaultclock.dt = 0.1*ms # Time resolution of the simulation
 np.random.seed(net_dict['Seed']) 

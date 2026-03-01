@@ -2,18 +2,13 @@ from brian2 import *
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-from pprint import pprint
-from network_parameters import net_dict, neuron_dict, eqs_dict, receptors_dict
+from network_parameters import net_dict, receptors_dict
 import csv
 from collections import defaultdict
-import hydra
-from omegaconf import DictConfig
-from omegaconf import OmegaConf
-import logging
 import pandas as pd
 
-np.random.seed(net_dict['Seed']) # Set the seed of the simulation for reproducibility
 
+np.random.seed(net_dict['Seed']) # Set the seed of the simulation for reproducibility
 class Network_main:
     """"
     Parameters

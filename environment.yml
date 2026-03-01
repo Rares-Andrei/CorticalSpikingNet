@@ -1,0 +1,13 @@
+name: CorticalSpikingNet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - brian2
+  - pip
+  - pip:
+      - hydra-core
+      - omegaconf
