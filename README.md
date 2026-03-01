@@ -1,5 +1,5 @@
 # CorticalSpikingNet
-Implementation of a cell-type specific laminar cortical column spiking network model, as presented in [Giulia Moreni, **Rares A. Dorcioman**, et al. (2025). Cell-type-specific firing patterns in a V1 cortical column model depend on feedforward and feedback-driven states. *PLos Computational Biology*](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012036).<br>
+Implementation of a cell-type specific laminar cortical column spiking network model, as presented in [Giulia Moreni, **Rares A. Dorcioman**, et al. (2025). Cell-type-specific firing patterns in a V1 cortical column model depend on feedforward and feedback-driven states. *PLOS Computational Biology*](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012036).<br>
 
 This repository contains an independent implementation of the model described above, intended to simplify simulation, analysis, and extension. The maintainer of this repository is a co-author of the referenced publication. This is not the official code release associated with the study.
 
@@ -28,7 +28,7 @@ Run main simulation:
 python3 simulate.py t_sim=1000 experiment_type=experiment_name
 ```
 
-Structure of the repository:
+## Structure of the repository:
 ```text
 ├── config
 │   ├── config.yaml
